@@ -1,0 +1,16 @@
+.cards {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.elemnts {
+    width: 100%;
+    margin: auto;
+
+}
