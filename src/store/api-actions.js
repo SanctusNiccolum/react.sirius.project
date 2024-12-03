@@ -1,6 +1,6 @@
 import { ApiPath } from "../const";
 
-export const getNews = async () => {
+export const getNews = () => async () => {
     const response = await fetch(ApiPath.news,
         {method: 'GET',}
     );

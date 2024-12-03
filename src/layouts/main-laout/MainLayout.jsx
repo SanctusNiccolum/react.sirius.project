@@ -8,7 +8,9 @@ const MainLayout = () =>{
         <div>
             <Menu />
             <hr />
+            <main style={{ minHeight: "75dvh" }}>
                 <Outlet/>
+            </main>
             <hr />
             <Footer />
         </div>
