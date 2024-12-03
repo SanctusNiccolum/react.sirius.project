@@ -1,0 +1,23 @@
+.news-list {
+    justify-content: center;
+    padding: 20px;
+}
+
+.news-item {
+    justify-content: center;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.news-description {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.news-title {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    text-align: center;
+    color:rgb(69, 19, 115);
+}

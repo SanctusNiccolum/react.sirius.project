@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { login } from "../../store/authSlice";
 import { Button } from "@consta/uikit/Button";
 import { Informer } from '@consta/uikit/Informer';
+import './AuthPage.css'
+import { Layout } from "@consta/uikit/Layout";
 
 const AuthPage = () => {
     const [formData, setFormData] = React.useState({ username: '', password: '' });
@@ -34,7 +36,7 @@ const AuthPage = () => {
     };
 
     return (
-        <>
+        <Layout className="auth-page-elements" direction="column">
             <h1 className="auth-page-title">Авторизация</h1>
             <div className="feedback-form-container">
                 <form className="feedback-form">
@@ -53,7 +55,7 @@ const AuthPage = () => {
                     <Button size="m" label="Вход" form="round" onClick={formSubmitHandle} disabled={loading} />
                 </form>
             </div>
-        </>
+        </Layout>
     );
 };
 

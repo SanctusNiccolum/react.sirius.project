@@ -27,15 +27,15 @@ const Footer = () => {
             <Layout className="footer__nav">
                 <Layout className="footer__nav-buttons">
                     <NavLink to={AppRoute.main} style={getStyleForNavLink}>
-                        <Button size="l" label="Главная" view="clear" form="round" />
+                        <Button size="l" label="Главная" view="clear" />
                     </NavLink>
                     <NavLink to={AppRoute.service} style={getStyleForNavLink}>
-                        <Button size="l" label="Услуги" view="clear" form="round" />
+                        <Button size="l" label="Услуги" view="clear" />
                     </NavLink>
                 </Layout>
             </Layout>
             <Text size='xl' lineHeight="m" view="primary" className="footer__title">
-                © {currentYear}
+                © {currentYear} Вероника Машталер
             </Text>
         </Layout>
     );
